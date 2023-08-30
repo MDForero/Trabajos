@@ -1,3 +1,15 @@
 [submodule "villafeliz"]
 	path = villafeliz
 	url = https://github.com/MDForero/villa-feliz.git
+[submodule "saludlaboral"]
+	path = saludlaboral
+	url = https://github.com/MDForero/saludlaboral.git
+[submodule "saludlaboralips"]
+	path = saludlaboralips
+	url = https://github.com/MDForero/saludlaboral.git
+[submodule "monterrey"]
+	path = monterrey
+	url = https://github.com/MDForero/alcaldiamonterrey.git
+[submodule "terrazahotelmonterrey"]
+	path = terrazahotelmonterrey
+	url = https://github.com/MDForero/terrazahotel.git
