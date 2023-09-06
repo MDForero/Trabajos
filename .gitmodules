@@ -13,3 +13,6 @@
 [submodule "terrazahotelmonterrey"]
 	path = terrazahotelmonterrey
 	url = https://github.com/MDForero/terrazahotel.git
+[submodule "heliconias"]
+	path = heliconias
+	url = https://github.com/MDForero/heliconias.git
