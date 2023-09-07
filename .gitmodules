@@ -16,3 +16,6 @@
 [submodule "heliconias"]
 	path = heliconias
 	url = https://github.com/MDForero/heliconias.git
+[submodule "innova"]
+	path = innova
+	url = https://github.com/MDForero/innova.git
