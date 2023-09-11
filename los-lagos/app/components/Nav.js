@@ -23,19 +23,19 @@ const Nav = ({ nav }) => {
     return (
         <nav className={'w-full  h-14 md:h-fit ' + (fixed?'fixed top-0 right-0':'absolute top-0 right-0 ')}>
             <div className='relative mx-auto w-full md:w-fit'>
-                <ul className='hidden md:flex py-4 z-50'>
+                <ul className='hidden lg:flex py-4 z-50'>
                     {nav.map((item, index) => {
                         return (
-                            <li key={index} className='inline-block px-6 py-3 mr-3 font-bold text-center text-white uppercase align-middle transition-all rounded-lg cursor-pointer bg-gradient-to-tl from-purple-700 to-pink-500 leading-pro text-xs ease-soft-in tracking-tight-soft shadow-soft-md bg-150 bg-x-25 hover:scale-110 hover:rotate-2 hover:bg-pink-700 hover:text-pink-200 hover:shadow-lg active:opacity-85 '>
+                            <li key={index} className={fixed?'inline-block px-6 py-3 mr-3 font-bold text-center text-white uppercase align-middle transition-all rounded-lg cursor-pointer bg-gradient-to-tl from-purple-700 to-pink-500 leading-pro text-xs ease-soft-in tracking-tight-soft shadow-soft-md bg-150 bg-x-25 hover:scale-110 hover:rotate-2 hover:bg-pink-700 hover:text-pink-200 hover:shadow-lg active:opacity-85 ': 'inline-block px-6 py-3 font-bold text-center text-white uppercase align-middle '}>
                                 <Link href={item.href}>{item.text}</Link>
                             </li>
                         )
                     })}
                 </ul>
-                <ul className={show ? 'fixed top-0 right-0 bottom-0 left-0 bg-gray-400 flex flex-col justify-center items-center gap-2' : 'hidden '}>
+                <ul className={show ? 'fixed top-0 right-0 bottom-0 left-0 bg-gray-400 flex flex-col pt-14 items-center  gap-2' : 'hidden '}>
                     {nav.map((item, index) => {
                         return (
-                            <li key={index} className='inline-block px-6 py-3 mr-3 font-bold text-center text-white uppercase align-middle transition-all rounded-lg cursor-pointer bg-gradient-to-tl from-purple-700 to-pink-500 leading-pro text-xs ease-soft-in tracking-tight-soft shadow-soft-md bg-150 bg-x-25 hover:scale-110 hover:rotate-2 hover:bg-pink-700 hover:text-pink-200 hover:shadow-lg active:opacity-85 '>
+                            <li key={index} className='inline-block px-6 py-3 mr-3 font-bold text-center text-white uppercase align-middle transition-all rounded-lg cursor-pointer bg-gradient-to-tl from-purple-700 to-pink-500 leading-pro text-xs ease-soft-in tracking-tight-soft shadow-soft-md bg-150 bg-x-25 hover:scale-110 hover:rotate-2 hover:bg-pink-700 hover:text-pink-200 hover:shadow-lg active:opacity-85 w-full'>
                                 <Link onClick={() => {
                                     setShow(!show); document.getElementById('checkbox').checked = false
                                 }} href={item.href}>{item.text}</Link>
