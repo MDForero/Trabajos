@@ -248,3 +248,46 @@ export const team = [
         img: '/profile.jpg',
     },
 ] 
+
+export const servicios = [
+    {
+        title: 'Piscina',
+        text: 'Piscina para adultos y niños, con zona de bronceo y asoleadoras.',
+        img: '/Images/_DSC1754.jpg'
+    },
+    {
+        title: 'Jacuzzi',
+        text: 'Piscina para adultos y niños, con zona de bronceo y asoleadoras.',
+        img: '/Images/_DSC1754.jpg'
+    },
+    {
+        title: 'Salon',
+        text: 'Piscina para adultos y niños, con zona de bronceo y asoleadoras.',
+        img: '/Images/_DSC1754.jpg'
+    },
+    {
+        title: 'Tobogan',
+        text: 'Piscina para adultos y niños, con zona de bronceo y asoleadoras.',
+        img: '/Images/_DSC1754.jpg'
+    },
+    {
+        title: 'Bar',
+        text: 'Piscina para adultos y niños, con zona de bronceo y asoleadoras.',
+        img: '/Images/_DSC1754.jpg'
+    },
+    {
+        title: 'Cabalgata',
+        text: 'Piscina para adultos y niños, con zona de bronceo y asoleadoras.',
+        img: '/Images/_DSC1754.jpg'
+    },
+    {
+        title: 'Cuatrimotos',
+        text: 'Piscina para adultos y niños, con zona de bronceo y asoleadoras.',
+        img: '/Images/_DSC1754.jpg'
+    },
+    {
+        title: 'Restaurante',
+        text: 'Piscina para adultos y niños, con zona de bronceo y asoleadoras.',
+        img: '/Images/_DSC1754.jpg'
+    },
+]

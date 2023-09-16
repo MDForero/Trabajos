@@ -18,13 +18,13 @@ export default function Home() {
               <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
                 <div className="ml-auto lg:col-start-2 lg:max-w-2xl">
                   <p className="text-base font-semibold leading-6 text-indigo-500 uppercase">
-                    Interactive
+                    ¿Por qué elegirnos?
                   </p>
                   <h4 className="mt-2 text-2xl font-extrabold leading-8 text-gray-900 :text-3xl sm:leading-9">
-                    Interactivity between team members is the key of the success.
+                    Un lugar para todos
                   </h4>
                   <p className="mt-4 text-lg leading-6 text-gray-500 ">
-                    Build a simply and powered collaborative space for all your team. Track, share, measure, you have a fully control, it&#x27;s never be simply and efficient.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
                   </p>
                   <ul className="gap-6 mt-8 md:grid md:grid-cols-2">
                     {['Jacuzzi', 'Confort', 'atencion personalizada', 'discresion', 'Lorem Ipsum'].map((item, index) => <li key={index} className="mt-6 lg:mt-0">
@@ -57,21 +57,25 @@ export default function Home() {
               </div>
             </div>
           </div>
-
         </section>
-        <DivImg/>
-        <section id='featured' className='flex flex-wrap gap-8 justify-center items-center max-w-7xl w-full p-4 mx-auto'>
-          {featured.map((feature, index) => <Services data={feature} key={index} />)}
+        <DivImg />
+        <section id='featured'>
+          <Services />
         </section>
-        <DivImg/>
+        <DivImg />
         <section id='faq'>
           <Faq data={faq} />
         </section>
-        <DivImg/>
-        <section id='comments' className='flex  gap-8 max-w-7xl w-full overflow-hidden overflow-x-scroll p-4 mx-auto'>
-          {comments.map((comment, index) => <Comments data={comment} key={index} />)}
+        <DivImg />
+        <section>
+          {/* Los dos titulos siguientes son para informar a los vistantes de lo que comentan nuestros huespedes y porque elegirnos */}
+          <h2 className='text-3xl font-bold text-center w-max mx-auto flex'>Experiencias Inolvidables</h2>
+          <p className='text-center mb-8'>Descubre las Historias que nos Hacen Especiales</p>
+          <div id='comments' className='flex  gap-8 max-w-7xl w-full overflow-hidden overflow-x-scroll p-4 mx-auto'>
+            {comments.map((comment, index) => <Comments data={comment} key={index} />)}
+          </div>
         </section>
-        <DivImg/>
+        <DivImg />
         <section id='team'>
           <Team data={team} />
         </section>

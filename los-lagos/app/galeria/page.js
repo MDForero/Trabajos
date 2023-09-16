@@ -29,7 +29,7 @@ export default async function page() {
     return <div className=''>
         <Banner fondo='/Images/fondos/galeria.jpg'  />
         <div className='max-w-screen-xl w-full mx-auto grid md:grid-cols-4 sm:grid-cols-2 xl:grid-cols-6 grid-flow-dense gap-2'>
-            {imagenesEnCarpeta.map((imagen) => <Image src={imagen} width={0} height={0} className='rounded-xl w-full h-full object-cover' />)}
+            {imagenesEnCarpeta.map((imagen, index) => <Image key={index} src={imagen} width={0} height={0} className='rounded-xl w-full h-full object-cover' />)}
         </div>
     </div>
 

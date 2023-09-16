@@ -13,9 +13,11 @@
     transition: 0.2s ease-in-out;
 }
 
+
+
 .img {
     height: 100px;
-    position:absolute;
+    position: absolute;
     transition: 0.2s ease-in-out;
 }
 
@@ -189,7 +191,7 @@
 
 .social {
     display: flex;
-    
+
     height: 70px;
     width: 270px;
 }
@@ -269,15 +271,16 @@
     }
 }
 
-.cardImage:hover > .barraExp{
+.cardImage:hover>.barraExp {
     width: 0%;
     margin: auto;
     height: 0px;
     background-color: #0479ff;
-    animation: barIn 0.3s ease-in forwards; 
+    animation: barIn 0.3s ease-in forwards;
 }
-.cardImage:hover> img{
-    animation: scale  0.5s forwards;
+
+.cardImage:hover>img {
+    animation: scale 0.5s forwards;
 }
 
 @keyframes scale {
@@ -304,4 +307,11 @@
         width: 100%;
         height: 3px;
     }
+}
+
+
+.services:hover > div { 
+    opacity: 0;
+    transform: translateY(0px);
+    transition: 0.4s ease-in-out;
 }
