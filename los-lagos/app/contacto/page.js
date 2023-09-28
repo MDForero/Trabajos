@@ -4,7 +4,7 @@ import { contacto } from '../data/data'
 
 export default function page() {
     return <div className='flex flex-col gap-24 justify-center items-center'>
-        <Banner fondo={'/Images/fondos/contacto.jpg'} />
+        <Banner fondo={'/Images/DJI_0049.JPG'} />
         <section className='max-w-7xl w-full'>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.4208420735727!2d-72.89160582398188!3d4.8689461401739225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e6ad2850e5b68df%3A0x30c6adb32b2fb1cb!2sHotel%20Los%20Lagos%20Centro%20Vacacional%3B%20Hotel%20en%20Monterrey%20Casanare%2C!5e0!3m2!1ses-419!2sco!4v1694108258499!5m2!1ses-419!2sco" className='w-full h-[450px]' allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
         </section>

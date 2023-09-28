@@ -4,22 +4,24 @@ import React, { useEffect, useState } from 'react'
 import { featured } from '../data/data'
 
 const Services = () => {
-    const [plan, setPlan] = useState('Platinum')
-    const planes = ['Platinum', 'Gold', 'Silver', 'Bronze']
+    const [plan, setPlan] = useState('descanso')
+    const planes = [' descanso', ' relax', ' confort', ' placer']
     useEffect(() => {
         let i = 0
-        setInterval(() => {
-            i++
-            setPlan(planes[i % 4])
-            document.getElementById('plan').classList.add('animate-typing')
-        }, 2000)
+        const element = document.getElementById('plan')
+        if (element) {
+            setInterval(() => {
+                i++
+                setPlan(planes[i % 4])
+            }, 2000)
+        }
     }, [])
     return (
         <div className="">
-            <h2 className='text-3xl font-bold text-center w-max mx-auto flex'>Planes <p id='plan' className='block pl-2  overflow-hidden whitespace-nowrap border-r-4 border-r-gray-400 pr-5  text-black font-bold'>{plan }</p></h2>
-            
-                
-            
+            <h2 className='text-3xl font-bold text-center w-fit mx-auto '>Estar en los lagos es <span id='plan' className=' overflow-hidden whitespace-nowrap  text-black font-bold'>{plan}</span></h2>
+
+
+
             <p className='text-center'>Disfruta de cada una de nuestras </p>
             <div className='flex flex-wrap gap-8 justify-center items-center max-w-7xl w-full p-4 mx-auto'>
                 {featured.map((item, index) => <div key={index} className="servicios w-32 h-32 lg:w-44 lg:h-64">

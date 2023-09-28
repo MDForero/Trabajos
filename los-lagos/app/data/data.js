@@ -5,52 +5,107 @@ export const contacto = {
     maps: 'https://goo.gl/maps/LuhqwsdWL4TLAoTs7',
 }
 export const social = [
-    { social: 'facebook', url: 'https://www.facebook.com/loslagosmonterrey', svg: '/Images/svg/facebook.svg' },
-    { social: 'whatsapp', url: 'https://www.facebook.com/loslagosmonterrey', svg: '/Images/svg/whastapp.svg' },
+    { social: 'facebook', url: 'https://www.facebook.com/centrovacacionalloslagos', svg: '/Images/svg/facebook.svg' },
+    { social: 'whatsapp', url: `https://api.whatsapp.com/send/?phone=${contacto.telefono}`, svg: '/Images/svg/whastapp.svg' },
     { social: 'instagram', url: 'https://www.instagram.com/monterreyloslagos/', svg: '/Images/svg/instagram.svg' },
 ]
 
 export const nosotros = [
     {
         title: 'Misión',
-        text: 'Ofrecer a nuestros clientes un servicio de calidad, con un ambiente familiar y de descanso, en un lugar rodeado de naturaleza y tranquilidad.',
-        img: '/images/_DSC9822.jpg'
+        text: 'Ser líder en hospitalidad en la región; con los más altos estándares de servicio y amabilidad, siendo una organización estable, innovadora y con espacios de confort para el descanso, que vela por el sostenimiento y la reinversión en la propiedad, la protección del entorno ambiental y el desarrollo permanente de nuestro talento humano y la satisfacción de nuestros clientes.',
+        img: '/Images/_DSC9954.jpg'
     },
     {
         title: 'Visión',
-        text: 'Ser reconocidos como un lugar de descanso y esparcimiento, con un servicio de calidad, en un ambiente familiar y de tranquilidad.',
-        img: '/images/_DSC9827.jpg'
+        text: 'Ser líder en hospitalidad en la región; con los más altos estándares de servicio y amabilidad, siendo una organización estable, innovadora y con espacios de confort para el descanso, que vela por el sostenimiento y la reinversión en la propiedad, la protección del entorno ambiental y el desarrollo permanente de nuestro talento humano y la satisfacción de nuestros clientes.',
+        img: '/Images/_DSC9961.jpg'
     }
+]
+
+export const valores = [
+    {
+        title: 'Hospitalidad:',
+        text: 'Los colaboradores del Hotel los lagos centro vacacional DR. nos caracterizamos por recibir y acoger a nuestros huéspedes con calidez, respeto y amabilidad. ',
+    },
+    {
+        title: 'Innovación:',
+        text: 'Trabajamos para entregar espacios atractivos, novedosos, limpios y con mucho confort que superen las expectativas de nuestros clientes huéspedes y clientes.',
+    },
+    {
+        title: 'Confiabilidad:',
+        text: 'Cumplimos ofreciendo los mejores espacios, productos y servicios a un precio justo y razonable. ',
+    },
+    {
+        title: 'Servicio:',
+        text: 'Contamos con un equipo de colaboradores comprometidos para prestar un servicio diferente, con experiencias memorables, logrando de esta manera fidelidad de nuestros clientes. ',
+    },
+    {
+        title: 'Trabajo en equipo:',
+        text: 'Cada colaborador realiza aportes de mejora en sus procesos y comunicación efectiva entre sus compañeros logrando así el cumplimiento de los objetivos organizacionales.  ',
+    },
+    {
+        title: 'Excelencia:',
+        text: 'Buscamos siempre mejorar nuestros espacios, servicios y procesos para el mejoramiento continuo.  ',
+    },
+
+]
+
+export const principios = [
+    {
+        title: 'Respeto:',
+        text: 'Escuchamos sus necesidades, entendemos sus inconformidades y valoramos a la persona, buscando armonía en las relaciones interpersonales, laborales y comerciales.',
+    },
+    {
+        title: 'Honestidad:',
+        text: 'Realizamos toda operación interna y externa de cara al cliente con transparencia y rectitud.',
+    },
+    {
+        title: 'Lealtad:',
+        text: 'Generamos opciones que permitan mejorar el resultado de nuestro trabajo, aumentando la productividad y la eficiencia de los costos, acorde con las normas y el cumplimiento de las políticas y procedimientos al interior de la organización.',
+    },
+    {
+        title: 'Integridad:',
+        text: 'Tenemos un comportamiento educado en cualquier situación que se presente.  ',
+    },
+    {
+        title: 'Sentido de pertenencia:',
+        text: 'Sentimos compromiso y lealtad ante una organización sólida y confiable, donde valoramos nuestro trabajo y sabemos que hacemos parte del resultado final. ',
+    },
+    {
+        title: 'Equidad e Imparcialidad:',
+        text: 'Actuamos con legalidad, justicia y transparencia tanto en la prestación del servicio como en las relaciones laborales.No existe trato diferencial o discriminatorio, no juzgamos, raza, inclinación sexual y creencia religiosa, ideológica, política o de cualquier otra naturaleza.  ',
+    },
 ]
 
 export const habitaciones = [
     {
         title: 'Habitación 1',
         text: 'Habitación con capacidad para 4 personas, con baño privado, aire acondicionado, televisión, nevera, ventilador, wifi, parqueadero y desayuno incluido.',
-        img1: '/images/habitaciones/room1/_DSC9730.jpg',
-        img2: '/images/habitaciones/room1/_DSC9732.jpg',
-        img3: '/images/habitaciones/room1/_DSC9734.jpg',
+        img1: '/Images/habitaciones/room1/_DSC9730.jpg',
+        img2: '/Images/habitaciones/room1/_DSC9732.jpg',
+        img3: '/Images/habitaciones/room1/_DSC9734.jpg',
     },
     {
         title: 'Habitación 2',
         text: 'Habitación con capacidad para 4 personas, con baño privado, aire acondicionado, televisión, nevera, ventilador, wifi, parqueadero y desayuno incluido.',
-        img1: '/images/habitaciones/room2/_DSC9745.jpg',
-        img2: '/images/habitaciones/room2/_DSC9748.jpg',
-        img3: '/images/habitaciones/room2/_DSC9745.jpg',
+        img1: '/Images/habitaciones/room2/_DSC9745.jpg',
+        img2: '/Images/habitaciones/room2/_DSC9748.jpg',
+        img3: '/Images/habitaciones/room2/_DSC9745.jpg',
     },
     {
         title: 'Habitación 3',
         text: 'Habitación con capacidad para 4 personas, con baño privado, aire acondicionado, televisión, nevera, ventilador, wifi, parqueadero y desayuno incluido.',
-        img1: '/images/habitaciones/room3/_DSC9744.jpg',
-        img2: '/images/habitaciones/room3/_DSC9751.jpg',
-        img3: '/images/habitaciones/room3/_DSC9752.jpg',
+        img1: '/Images/habitaciones/room3/_DSC9744.jpg',
+        img2: '/Images/habitaciones/room3/_DSC9751.jpg',
+        img3: '/Images/habitaciones/room3/_DSC9752.jpg',
     },
     {
         title: 'Habitación 4',
         text: 'Habitación con capacidad para 4 personas, con baño privado, aire acondicionado, televisión, nevera, ventilador, wifi, parqueadero y desayuno incluido.',
-        img1: '/images/habitaciones/room4/_DSC9761.jpg',
-        img2: '/images/habitaciones/room4/_DSC9763.jpg',
-        img3: '/images/habitaciones/room4/_DSC9764.jpg',
+        img1: '/Images/habitaciones/room4/_DSC9761.jpg',
+        img2: '/Images/habitaciones/room4/_DSC9763.jpg',
+        img3: '/Images/habitaciones/room4/_DSC9764.jpg',
 
     },
 ]
@@ -81,11 +136,7 @@ export const featured = [
         text: 'Zona de eventos para fiestas y reuniones.',
         img: '/svg/party.svg'
     },
-    {
-        title: 'Zona de Pesca',
-        text: 'Zona de pesca con lagos y ríos.',
-        img: '/svg/fishing.svg'
-    },
+    
     {
         title: 'Zona de Descanso',
         text: 'Zona de descanso con hamacas y asoleadoras.',
@@ -175,24 +226,24 @@ export const faq = [
         answ: 'Los huéspedes que elijan Hotel Los Lagos Monterrey pueden disfrutar de un desayuno con muy buen puntaje durante la estadía (puntaje de comentarios de los huéspedes: 7.5).',
     },
     {
-        quest:'¿Cuánto cuesta hospedarse en Hotel Los Lagos Monterrey?',
-        answ:'Los precios en Hotel Los Lagos Monterrey pueden variar según la estadía (por ejemplo, fechas seleccionadas, política del hotel, etcétera). Ingresá tus fechas para ver los precios.',
+        quest: '¿Cuánto cuesta hospedarse en Hotel Los Lagos Monterrey?',
+        answ: 'Los precios en Hotel Los Lagos Monterrey pueden variar según la estadía (por ejemplo, fechas seleccionadas, política del hotel, etcétera). Ingresá tus fechas para ver los precios.',
     },
     {
-        quest:'¿Qué tipo de habitación puedo reservar en Hotel Los Lagos Monterrey?',
-        answ:'Las opciones de habitaciones en Hotel Los Lagos Monterrey son: \n Habitación Doble \n Habitación Triple \n Habitación Cuádruple',
+        quest: '¿Qué tipo de habitación puedo reservar en Hotel Los Lagos Monterrey?',
+        answ: 'Las opciones de habitaciones en Hotel Los Lagos Monterrey son: \n Habitación Doble \n Habitación Triple \n Habitación Cuádruple',
     },
     {
-        quest:'¿Hotel Los Lagos Monterrey tiene pileta?',
-        answ:'Sí, este hotel tiene pileta. Encontrá los detalles sobre las instalaciones y los servicios que ofrece la pileta y otras instalaciones en la pagina de servicios.',
+        quest: '¿Hotel Los Lagos Monterrey tiene pileta?',
+        answ: 'Sí, este hotel tiene pileta. Encontrá los detalles sobre las instalaciones y los servicios que ofrece la pileta y otras instalaciones en la pagina de servicios.',
     },
     {
-        quest:'¿Cómo llego a Hotel Los Lagos Monterrey desde el terminal de transporte más cercano?',
-        answ:'Desde el terminal de transporte más cercano, podés llegar a Hotel Los Lagos Monterrey en: \n Taxi 10min',
+        quest: '¿Cómo llego a Hotel Los Lagos Monterrey desde el terminal de transporte más cercano?',
+        answ: 'Desde el terminal de transporte más cercano, podés llegar a Hotel Los Lagos Monterrey en: \n Taxi 10min',
     },
     {
-        quest:'¿A qué distancia está Hotel Los Lagos Monterrey del centro de Monterrey?',
-        answ:'Hotel Los Lagos Monterrey está a 1,1 km del centro de Monterrey.',
+        quest: '¿A qué distancia está Hotel Los Lagos Monterrey del centro de Monterrey?',
+        answ: 'Hotel Los Lagos Monterrey está a 1,1 km del centro de Monterrey.',
     },
 ]
 
@@ -247,7 +298,7 @@ export const team = [
         job: 'Gerente',
         img: '/profile.jpg',
     },
-] 
+]
 
 export const servicios = [
     {

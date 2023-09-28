@@ -1,5 +1,6 @@
 import Footer from './components/Footer'
 import Nav from './components/Nav'
+import { contacto } from './data/data'
 import './globals.css'
 import { Inter } from 'next/font/google'
 
@@ -41,7 +42,9 @@ export default function RootLayout({ children }) {
     <html lang="es">
       <body className={inter.className}>
         <Nav nav={nav} />
-        {children}
+        <div className='relative mb-28 overflow-hidden '>
+          {children}
+        </div>
         <Footer />
       </body>
     </html>

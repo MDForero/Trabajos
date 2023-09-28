@@ -19,6 +19,12 @@ module.exports = {
         black: colors.black,
         white: colors.white,
         gray: colors.gray,
+        blue:{'lagos':'#2EB5FC'},
+        green: {'lagos': '#18C500'},
+        orange: {'lagos': '#FF6600'},
+        brown: {'lagos': '#381507'},
+        gray: {'lagos': '#00244C'},
+        
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
