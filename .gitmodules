@@ -22,3 +22,6 @@
 [submodule "villa-feliz"]
 	path = villa-feliz
 	url = https://github.com/MDForero/villa-feliz.git
+[submodule "los-lagos-monterrey"]
+	path = los-lagos-monterrey
+	url = https://github.com/MDForero/los_lagos.git
